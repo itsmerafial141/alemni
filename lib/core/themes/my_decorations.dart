@@ -7,7 +7,8 @@ class MyDecoration {
 
   double get defaultPadding => 2.sw(context);
   // double get paddingLayoutHorizontal => 4.sw(context);
-  double get defaultDivider => 2.sw(context);
+  double get defaultDividerHeight => 2.sw(context);
+  double get defaultDividerWidth => 2.sw(context);
   double get viewPaddingTop => MediaQuery.of(context).viewPadding.top;
   static const double marginHorizontal = 24;
   static const double defaultBottomNavigationBar = 70;

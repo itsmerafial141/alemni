@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: "Alemni",
-      initialRoute: AppPages.INITIAL,
+      initialRoute: AppPages.SS,
       getPages: AppPages.routes,
       debugShowCheckedModeBanner: false,
       theme: myMainTheme(),

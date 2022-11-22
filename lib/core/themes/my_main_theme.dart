@@ -67,7 +67,7 @@ ThemeData myMainTheme() {
       style: ElevatedButton.styleFrom(
         elevation: 0,
         backgroundColor: MyColors.logoPrincipal,
-        foregroundColor: MyColors.logoPrincipal,
+        foregroundColor: const Color(0xffCAE3D9),
         textStyle: MyFonts.ubuntuRegular16.copyWith(
           color: MyColors.colorTextWhite,
         ),
