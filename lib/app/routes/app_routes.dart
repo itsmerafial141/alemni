@@ -9,6 +9,10 @@ abstract class Routes {
   static const SPLASH_SCREEN = _Paths.SPLASH_SCREEN;
   static const ONBOARDING = _Paths.ONBOARDING;
   static const LOGIN = _Paths.LOGIN;
+  static const NAVIGATION = _Paths.NAVIGATION;
+  static const MY_COURSES = _Paths.MY_COURSES;
+  static const SEARCH = _Paths.SEARCH;
+  static const PROFILE = _Paths.PROFILE;
 }
 
 abstract class _Paths {
@@ -17,4 +21,8 @@ abstract class _Paths {
   static const SPLASH_SCREEN = '/splash-screen';
   static const ONBOARDING = '/onboarding';
   static const LOGIN = '/login';
+  static const NAVIGATION = '/navigation';
+  static const MY_COURSES = '/my-courses';
+  static const SEARCH = '/search';
+  static const PROFILE = '/profile';
 }

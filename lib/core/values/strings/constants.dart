@@ -12,4 +12,18 @@ class MyConstant {
     "assets/icons/undraw_developer_activity_re_39tg 1.svg",
     "assets/icons/undraw_launching_re_tomg 1.svg",
   ];
+
+  // NAVIGATION
+  static const List<String> nvIconAsset = [
+    "assets/icons/navigation/home-2.svg",
+    "assets/icons/navigation/Play.svg",
+    "assets/icons/navigation/Edit Square.svg",
+    "assets/icons/navigation/frame.svg",
+  ];
+  static const List<String> nvTitle = [
+    "Home",
+    "My Courses",
+    "Search",
+    "Profile",
+  ];
 }

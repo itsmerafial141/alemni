@@ -11,7 +11,7 @@ class MyDecoration {
   double get defaultDividerWidth => 2.sw(context);
   double get viewPaddingTop => MediaQuery.of(context).viewPadding.top;
   static const double marginHorizontal = 24;
-  static const double defaultBottomNavigationBar = 70;
+  static const double defaultBottomNavigationBar = 80.19;
   static const double defaultBorderRadius = 10;
   static const double checkBoxBorderRadius = 5;
   static const double defaultTextFieldBorderRadius = 10;

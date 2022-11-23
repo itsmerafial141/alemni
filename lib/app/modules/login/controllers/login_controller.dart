@@ -1,3 +1,4 @@
+import 'package:alemni/app/routes/app_pages.dart';
 import 'package:alemni/app/widgets/my_raw_snackbar.dart';
 import 'package:alemni/core/values/keys/response_code_key.dart';
 import 'package:flutter/cupertino.dart';
@@ -24,7 +25,9 @@ class LoginController extends GetxController {
     passwordObsecure.toggle();
   }
 
-  void onLoginTapped() {}
+  void onLoginTapped() {
+    Get.offAllNamed(AppPages.NV);
+  }
 
   void onGoogleTapped() {
     MyRawSnackBar.rawSanckBar(
