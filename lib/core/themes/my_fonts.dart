@@ -192,6 +192,11 @@ class MyFonts {
   );
 
   // ubuntu Semibold
+  static TextStyle ubuntuBold8 = GoogleFonts.ubuntu(
+    fontSize: 8,
+    fontWeight: FontWeight.w700,
+    color: MyColors.text,
+  );
   static TextStyle ubuntuBold10 = GoogleFonts.ubuntu(
     fontSize: 10,
     fontWeight: FontWeight.w700,

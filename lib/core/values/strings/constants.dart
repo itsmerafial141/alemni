@@ -26,4 +26,11 @@ class MyConstant {
     "Search",
     "Profile",
   ];
+
+  // HOME
+  static const List<String> hmAppbarIconAsset = [
+    "assets/icons/homepage/Bell 2.svg",
+    "assets/icons/homepage/Bookmark.svg",
+    "assets/icons/homepage/send.svg",
+  ];
 }

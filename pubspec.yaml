@@ -37,6 +37,9 @@ dependencies:
 
   # PAGE INDICATOR
   smooth_page_indicator: ^1.0.0+2
+
+  # EXPENDABLE PAGE VIEW
+  expandable_page_view: ^1.0.14
   
   flutter_localizations:
     sdk: flutter
@@ -53,5 +56,6 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/icons/navigation/
+    - assets/icons/homepage/
   uses-material-design: true
 

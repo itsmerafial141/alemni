@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_null_comparison
+
 import 'package:alemni/core/themes/my_color_swatch.dart';
 import 'package:alemni/core/themes/my_colors.dart';
 import 'package:alemni/core/themes/my_decorations.dart';
@@ -26,6 +28,7 @@ class MyInputField extends StatelessWidget {
     this.onChanged,
     this.readOnly,
     this.onTap,
+    this.fill,
   }) : super(key: key);
 
   const MyInputField.outlined({
@@ -46,6 +49,7 @@ class MyInputField extends StatelessWidget {
     this.onChanged,
     this.readOnly,
     this.onTap,
+    this.fill,
   }) : super(key: key);
   const MyInputField.noTitle({
     Key? key,
@@ -65,6 +69,7 @@ class MyInputField extends StatelessWidget {
     this.onChanged,
     this.readOnly,
     this.onTap,
+    this.fill,
   }) : super(key: key);
   const MyInputField.outlinedNoTitle({
     Key? key,
@@ -84,6 +89,7 @@ class MyInputField extends StatelessWidget {
     this.onChanged,
     this.readOnly,
     this.onTap,
+    this.fill,
   }) : super(key: key);
   final TextEditingController controller;
   final String? title;
@@ -101,6 +107,7 @@ class MyInputField extends StatelessWidget {
   final bool? readOnly;
   final Function(String)? onChanged;
   final Function()? onTap;
+  final Color? fill;
 
   @override
   Widget build(BuildContext context) {
@@ -139,7 +146,12 @@ class MyInputField extends StatelessWidget {
           onChanged: onChanged,
           readOnly: readOnly ?? false,
           decoration: InputDecoration(
+            filled: fill != null ? true : false,
+            fillColor: fill,
             hintText: hint,
+            hintStyle: MyFonts.ubuntuRegular12.copyWith(
+              color: MyColors.textInput,
+            ),
             suffixIcon: psuffixIcon,
             prefixIcon: pprefixIcon,
             border: border(code: 110),
