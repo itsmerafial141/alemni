@@ -33,4 +33,11 @@ class MyConstant {
     "assets/icons/homepage/Bookmark.svg",
     "assets/icons/homepage/send.svg",
   ];
+
+  // COURSE_DESCRIPTION
+  static const List<String> cdTabTitle = [
+    "About",
+    "Lessons",
+    "Review",
+  ];
 }

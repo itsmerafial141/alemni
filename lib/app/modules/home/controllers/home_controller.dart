@@ -1,3 +1,4 @@
+import 'package:alemni/app/routes/app_pages.dart';
 import 'package:alemni/app/widgets/my_raw_snackbar.dart';
 import 'package:alemni/core/values/keys/response_code_key.dart';
 import 'package:alemni/core/values/strings/constants.dart';
@@ -81,7 +82,9 @@ class HomeController extends GetxController {
     _pageIndicator.value = index;
   }
 
-  void onTopCourseItemTapped() {}
+  void onTopCourseItemTapped() {
+    Get.toNamed(AppPages.CD);
+  }
 
   void onTopCourseBookmarkTapped() {}
 

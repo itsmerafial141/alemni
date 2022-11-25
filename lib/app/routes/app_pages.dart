@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../modules/course_description/bindings/course_description_binding.dart';
+import '../modules/course_description/views/course_description_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/login/bindings/login_binding.dart';
@@ -32,6 +34,7 @@ class AppPages {
   static const MC = Routes.MY_COURSES;
   static const SC = Routes.SEARCH;
   static const PR = Routes.PROFILE;
+  static const CD = Routes.COURSE_DESCRIPTION;
 
   static final routes = [
     GetPage(
@@ -73,6 +76,11 @@ class AppPages {
       name: _Paths.PROFILE,
       page: () => const ProfileView(),
       binding: ProfileBinding(),
+    ),
+    GetPage(
+      name: _Paths.COURSE_DESCRIPTION,
+      page: () => const CourseDescriptionView(),
+      binding: CourseDescriptionBinding(),
     ),
   ];
 }

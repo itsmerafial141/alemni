@@ -79,6 +79,7 @@ class HomeAppbar extends GetView<HomeController> {
             children: List.generate(
               controller.appbarIconAsset.length,
               (index) => FloatingActionButton(
+                heroTag: "Btn$index",
                 onPressed: () {
                   controller.onAppbarActionTapped(index);
                 },

@@ -57,5 +57,6 @@ flutter:
     - assets/icons/
     - assets/icons/navigation/
     - assets/icons/homepage/
+    - assets/icons/course_description/
   uses-material-design: true
 
